@@ -1,0 +1,63 @@
+{
+  "name": "reduced_redux",
+  "version": "1.0.0",
+  "description": "Reducing redux boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vacuumlabs/reduced_redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "boilerplate"
+  ],
+  "author": "Peter Peresini",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "6.3.14",
+    "babel-runtime": "6.3.19",
+    "compression": "1.6.1",
+    "cross-env": "1.0.7",
+    "ejs": "2.4.1",
+    "express": "4.13.4",
+    "express-ejs-layouts": "2.0.0",
+    "react": "0.14.6",
+    "react-dom": "0.14.6",
+    "webpack": "1.12.12",
+    "font-awesome": "^4.6.3",
+    "lodash": "^4.16.3",
+    "object-path-immutable": "^0.5.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.0",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "reselect": "^2.5.4",
+    "source-map-support": "^0.4.2"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "3.2.0",
+    "autoprefixer-loader": "3.2.0",
+    "babel-core": "6.4.5",
+    "babel-jest": "6.0.1",
+    "babel-loader": "6.2.1",
+    "babel-plugin-transform-runtime": "6.4.3",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "coveralls": "2.11.6",
+    "cross-env": "^3.0.0",
+    "jsdom": "^9.4.3",
+    "react-addons-test-utils": "0.14.6",
+    "react-hot-loader": "1.3.0",
+    "redux-logger": "2.7.0",
+    "webpack-dev-server": "1.14.1"
+  },
+  "modulePathIgnorePatterns": [
+    "<rootDir>/node_modules/"
+  ]
+}
