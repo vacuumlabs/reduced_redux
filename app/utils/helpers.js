@@ -10,7 +10,8 @@ export const compose = (f, ...fs) => fs.length > 0 ? (x) => f(compose(...fs)(x))
  */
 export const forwardReducerTo = (reducer, path) => (
   (state, payload) => {
-    const newValue = reducer(get(state, path), payload)
-    return set(state, path, newValue)
+    const value = get(state, path)
+    const newValue = reducer(value, payload)
+    return newValue !== value ? set(state, path, newValue) : state
   }
 )
