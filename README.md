@@ -1,3 +1,5 @@
+## The project is deprecated and no longer maintained. It can still be used for the demonstration of its main ideas (which are far from deprecation :) )
+
 # reduced_redux
 Reducing redux boilerplate
 
